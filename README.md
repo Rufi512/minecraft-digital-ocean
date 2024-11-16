@@ -6,19 +6,24 @@
 
 
 ## How to run
+1. In your SSH session, start a screen session by running the screen command:
+    ```
+    screen
+    ```
 
-1. <b>First install all dependencies:</b>
+
+2. <b>First install all dependencies:</b>
     ```
     sudo apt update
     sudo apt install default-jre
     ```
 
-2. <b>Verify the installation from java</b>
+3. <b>Verify the installation from java</b>
     ```
     java -version
     ```
 
-3. <b>Run the server</b>
+4. <b>Run the server</b>
 
     ```
     ./run.sh
@@ -29,6 +34,37 @@
     ```
     ./run.bat
     ```
+
+    or if you need to assign parameters, you can use this:
+    ```
+    java -Xms1024M -Xmx2G -jar forge-1.20.4-49.1.13-shim.jar nogui
+    ```
+
+## Do not kill the server when leaving the session
+1. You want it to remain running even after you disconnect from your SSH session. Since you used screen earlier, you can detach from this session by pressing Ctrl + A + D. You should see that you’re back in your original shell
+
+2. Run this command to see all of your screen sessions:
+    ```
+    screen -list
+    ```
+
+    You’ll get an output with the ID of your session, which you’ll need to resume that session:
+
+    ```
+    Output
+    There is a screen on:
+            3626.pts-0.minecraft-2204	(03/02/22 22:56:33)	(Detached)
+    1 Socket in /run/screen/S-root.
+    ```
+
+3. To resume your session, pass the -r flag to the screen command and then enter your session ID:
+
+    ```
+    screen -r 3626
+    ```
+    When you are ready to log out of the terminal again, be sure to detach from the session with Ctrl + A + D and then log out.
+
+    <a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-minecraft-server-on-ubuntu-22-04" target="_blank">Source for these steps</a>
 
 ## How to install mods
 
