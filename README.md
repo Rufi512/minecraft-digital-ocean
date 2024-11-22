@@ -64,7 +64,7 @@
 
 ## How to install mods
 
-To install the mods just place the files to use in the “mods” folder compatible with forge version 1.20.4 and run the server, if all goes well the server will start with the mods.
+To install the mods just place the files to use in the “mods” folder compatible with forge version 1.19.2 and run the server, if all goes well the server will start with the mods.
 
 <div style="display:flex; gap:0px 25px; margin-top:40px;">
 <img src="https://i.pinimg.com/originals/ba/92/7f/ba927ff34cd961ce2c184d47e8ead9f6.jpg" style="width:150px; "/>
