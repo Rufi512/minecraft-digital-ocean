@@ -32,13 +32,9 @@
     or windows
 
     ```
-    ./run.bat
+    .\run.bat
     ```
 
-    or if you need to assign parameters, you can use this:
-    ```
-    java -Xms1024M -Xmx2G -jar forge-1.20.4-49.1.13-shim.jar nogui
-    ```
 
 ## Do not kill the server when leaving the session
 1. You want it to remain running even after you disconnect from your SSH session. Since you used screen earlier, you can detach from this session by pressing Ctrl + A + D. You should see that you’re back in your original shell
