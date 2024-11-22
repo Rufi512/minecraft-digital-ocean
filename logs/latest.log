@@ -1,125 +1,412 @@
-[15Nov2024 13:15:07.821] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
-[15Nov2024 13:15:07.823] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Arch Linux OpenJDK 64-Bit Server VM 23
-[15Nov2024 13:15:07.824] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 23 by Arch Linux; OS Linux arch amd64 version 6.11.6-zen1-1-zen
-[15Nov2024 13:15:07.900] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[15Nov2024 13:15:08.004] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
-[15Nov2024 13:15:08.204] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[15Nov2024 13:15:09.013] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
-[15Nov2024 13:15:09.250] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties]
-[15Nov2024 13:15:09.383] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties]
-[15Nov2024 13:15:13.932] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.1.13, for MC 1.20.4 with MCP 20231207.112700
-[15Nov2024 13:15:13.934] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.1.13 Initialized
-[15Nov2024 13:15:13.988] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[15Nov2024 13:15:14.541] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[15Nov2024 13:15:15.384] [main/ERROR] [net.minecraft.server.dedicated.Settings/]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:262) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
-	at net.minecraft.server.dedicated.Settings.m_139839_(Settings.java:36) ~[forge-1.20.4-49.1.13-server.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.m_180929_(DedicatedServerProperties.java:138) ~[forge-1.20.4-49.1.13-server.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:12) ~[forge-1.20.4-49.1.13-server.jar:?]
-	at net.minecraft.server.Main.main(Main.java:122) ~[forge-1.20.4-49.1.13-server.jar:?]
+[21Nov2024 22:09:27.638] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.5, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[21Nov2024 22:09:27.643] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 23 by Arch Linux; OS Linux arch amd64 version 6.11.8-zen1-2-zen
+[21Nov2024 22:09:28.107] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
+[21Nov2024 22:09:28.598] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/win/arch_folder/minecraft_digital_ocean/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.5/fmlcore-1.19.2-43.4.5.jar is missing mods.toml file
+[21Nov2024 22:09:28.600] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/win/arch_folder/minecraft_digital_ocean/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.5/javafmllanguage-1.19.2-43.4.5.jar is missing mods.toml file
+[21Nov2024 22:09:28.601] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/win/arch_folder/minecraft_digital_ocean/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.5/lowcodelanguage-1.19.2-43.4.5.jar is missing mods.toml file
+[21Nov2024 22:09:28.603] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/win/arch_folder/minecraft_digital_ocean/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.5/mclanguage-1.19.2-43.4.5.jar is missing mods.toml file
+[21Nov2024 22:09:28.680] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[21Nov2024 22:09:30.785] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Nov2024 22:09:30.813] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
+[21Nov2024 22:09:30.961] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[21Nov2024 22:09:30.963] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[21Nov2024 22:09:30.968] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[21Nov2024 22:09:31.005] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Nov2024 22:09:31.018] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Nov2024 22:09:31.964] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[21Nov2024 22:09:31.965] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[21Nov2024 22:09:31.965] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[21Nov2024 22:09:31.967] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[21Nov2024 22:09:31.967] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[21Nov2024 22:09:31.967] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[21Nov2024 22:09:31.969] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[21Nov2024 22:09:31.969] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[21Nov2024 22:09:36.566] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[21Nov2024 22:09:38.843] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easyanvils
+[21Nov2024 22:09:38.843] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easymagic
+[21Nov2024 22:09:38.968] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.64.
+[21Nov2024 22:09:38.989] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIPlugin
+[21Nov2024 22:09:39.053] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[21Nov2024 22:09:39.054] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[21Nov2024 22:09:39.054] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[21Nov2024 22:09:39.054] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[21Nov2024 22:09:39.056] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[21Nov2024 22:09:39.057] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[21Nov2024 22:09:39.061] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIServerPlugin
+[21Nov2024 22:09:39.067] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[21Nov2024 22:09:39.067] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
+[21Nov2024 22:09:39.074] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[21Nov2024 22:09:39.079] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[21Nov2024 22:09:39.083] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
+[21Nov2024 22:09:39.084] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[21Nov2024 22:09:39.398] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[21Nov2024 22:09:39.508] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.5, for MC 1.19.2 with MCP 20220805.130853
+[21Nov2024 22:09:39.508] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.5 Initialized
+[21Nov2024 22:09:40.888] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[21Nov2024 22:09:41.122] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[21Nov2024 22:09:41.167] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[21Nov2024 22:09:41.243] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[21Nov2024 22:09:41.245] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[21Nov2024 22:09:41.275] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[21Nov2024 22:09:41.275] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[21Nov2024 22:09:41.277] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[21Nov2024 22:09:41.306] [main/INFO] [journeymap/]: Initializing Packet Registries
+[21Nov2024 22:09:41.354] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[21Nov2024 22:09:41.355] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[21Nov2024 22:09:41.355] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[21Nov2024 22:09:41.355] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[21Nov2024 22:09:41.470] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[21Nov2024 22:09:41.488] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[21Nov2024 22:09:41.498] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[21Nov2024 22:09:41.500] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[21Nov2024 22:09:41.501] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[21Nov2024 22:09:41.503] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[21Nov2024 22:09:42.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 4.0.11 Target: null
+[21Nov2024 22:09:42.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_serversleep] Starting version check at https://api.modrinth.com/updates/Cw8IlnGM/forge_updates.json
+[21Nov2024 22:09:42.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_serversleep] Found status: AHEAD Current: 1-datapack Target: null
+[21Nov2024 22:09:42.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[21Nov2024 22:09:42.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 4.3.3 Target: null
+[21Nov2024 22:09:42.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[21Nov2024 22:09:43.041] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 1.14.7 Target: 1.14.7
+[21Nov2024 22:09:43.042] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[21Nov2024 22:09:43.380] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Nov2024 22:09:43.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
+[21Nov2024 22:09:43.599] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[21Nov2024 22:09:44.577] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23176!/assets/.mcassetsroot' uses unexpected schema
+[21Nov2024 22:09:44.578] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/mnt/win/arch_folder/minecraft_digital_ocean/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23176!/data/.mcassetsroot' uses unexpected schema
+[21Nov2024 22:09:44.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[21Nov2024 22:09:44.734] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[21Nov2024 22:09:45.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 8.2.41 Target: null
+[21Nov2024 22:09:45.203] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[21Nov2024 22:09:45.318] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[21Nov2024 22:09:45.318] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[21Nov2024 22:09:45.421] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.3.6 Target: null
+[21Nov2024 22:09:45.422] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[21Nov2024 22:09:45.530] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
+[21Nov2024 22:09:45.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[21Nov2024 22:09:47.379] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from mvs-4.1.4-1.19.2-forge.jar)] as it is missing following references: minecraft:cherry_grove (from mvs-4.1.4-1.19.2-forge.jar)
+[21Nov2024 22:09:47.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[21Nov2024 22:09:47.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[21Nov2024 22:09:48.399] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[21Nov2024 22:09:48.585] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table mns:chests/uncommon
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:snout_armor_trim_smithing_template'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.5-universal.jar%23181!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1430) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.20.4-49.1.13.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.20.4-49.1.13.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) ~[modlauncher-10.1.2.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74) ~[modlauncher-10.1.2.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:114) ~[modlauncher-10.1.2.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:73) ~[modlauncher-10.1.2.jar:?]
-	at cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) ~[modlauncher-10.1.2.jar:?]
-	at net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) ~[bootstrap-2.1.0.jar!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.5.jar%2371!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[21Nov2024 22:09:48.602] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table mns:chests/treasure
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:snout_armor_trim_smithing_template'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.5-universal.jar%23181!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1430) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) ~[bootstrap-2.1.0.jar!/:?]
-	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) ~[bootstrap-2.1.0.jar!/:?]
-	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) ~[bootstrap-2.1.0.jar!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.5.jar%2371!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[21Nov2024 22:09:48.782] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table mns:chests/houses
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:snout_armor_trim_smithing_template'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2374!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2374!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.5-universal.jar%23181!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1430) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23176!/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:97) ~[forge-1.20.4-49.1.13-shim.jar!/:2.1.0]
-[15Nov2024 13:15:15.433] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15Nov2024 13:15:15.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 49.1.13 Target: null
-[15Nov2024 13:15:16.222] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
-[15Nov2024 13:15:16.907] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[15Nov2024 13:15:17.105] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[15Nov2024 13:15:19.171] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
-[15Nov2024 13:15:19.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[15Nov2024 13:15:19.173] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[15Nov2024 13:15:19.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[15Nov2024 13:15:19.284] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[15Nov2024 13:15:19.336] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[15Nov2024 13:15:19.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[15Nov2024 13:15:19.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[15Nov2024 13:15:19.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[15Nov2024 13:15:19.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[15Nov2024 13:15:19.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[15Nov2024 13:15:19.547] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[15Nov2024 13:15:19.547] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[15Nov2024 13:15:19.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[15Nov2024 13:15:19.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[15Nov2024 13:15:19.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[15Nov2024 13:15:25.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[15Nov2024 13:15:25.948] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Nov2024 13:15:25.951] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Nov2024 13:15:26.318] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Nov2024 13:15:26.796] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Nov2024 13:15:27.306] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15Nov2024 13:15:27.820] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[15Nov2024 13:15:28.305] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[15Nov2024 13:15:28.823] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[15Nov2024 13:15:29.297] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[15Nov2024 13:15:29.795] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[15Nov2024 13:15:30.713] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[15Nov2024 13:15:30.801] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[15Nov2024 13:15:31.294] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[15Nov2024 13:15:31.794] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[15Nov2024 13:15:32.298] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[15Nov2024 13:15:32.800] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[15Nov2024 13:15:33.322] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[15Nov2024 13:15:33.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[15Nov2024 13:15:34.297] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[15Nov2024 13:15:34.795] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[15Nov2024 13:15:35.297] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[15Nov2024 13:15:35.797] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[15Nov2024 13:15:36.298] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[15Nov2024 13:15:36.799] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[15Nov2024 13:15:37.318] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[15Nov2024 13:15:37.812] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[15Nov2024 13:15:38.299] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[15Nov2024 13:15:38.799] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[15Nov2024 13:15:39.313] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[15Nov2024 13:15:39.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[15Nov2024 13:15:40.296] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[15Nov2024 13:15:40.800] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[15Nov2024 13:15:41.299] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[15Nov2024 13:15:41.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[15Nov2024 13:15:42.295] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[15Nov2024 13:15:42.795] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[15Nov2024 13:15:43.301] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[15Nov2024 13:15:43.795] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[15Nov2024 13:15:44.295] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[15Nov2024 13:15:44.811] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[15Nov2024 13:15:45.295] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[15Nov2024 13:15:45.796] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[15Nov2024 13:15:46.294] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[15Nov2024 13:15:46.796] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[15Nov2024 13:15:47.329] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[15Nov2024 13:15:47.796] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[15Nov2024 13:15:48.294] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[15Nov2024 13:15:48.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[15Nov2024 13:15:49.362] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[15Nov2024 13:15:49.795] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[15Nov2024 13:15:50.298] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[15Nov2024 13:15:50.686] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 25393 ms
-[15Nov2024 13:15:50.686] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (31.186s)! For help, type "help"
-[15Nov2024 13:15:50.721] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[15Nov2024 13:16:04.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[15Nov2024 13:16:04.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[15Nov2024 13:16:04.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[15Nov2024 13:16:05.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.5.jar%2371!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[21Nov2024 22:09:48.901] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.19.2-2.5.26 Target: null
+[21Nov2024 22:09:48.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[21Nov2024 22:09:48.985] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2297 advancements
+[21Nov2024 22:09:48.988] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[21Nov2024 22:09:49.024] [main/INFO] [REI/]: [REI] ########################################
+[21Nov2024 22:09:49.025] [main/INFO] [REI/]: [REI] REIPlugin starting main-reload for START.
+[21Nov2024 22:09:49.026] [main/INFO] [REI/]: [REI] Plugins (3):
+[21Nov2024 22:09:49.026] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[21Nov2024 22:09:49.027] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[21Nov2024 22:09:49.027] [main/INFO] [REI/]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[21Nov2024 22:09:49.027] [main/INFO] [REI/]: [REI] ########################################
+[21Nov2024 22:09:49.054] [main/INFO] [REI/]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[21Nov2024 22:09:49.055] [main/INFO] [REI/]: [REI] REIServerPlugin starting main-reload for START.
+[21Nov2024 22:09:49.055] [main/INFO] [REI/]: [REI] Plugins (3):
+[21Nov2024 22:09:49.055] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[21Nov2024 22:09:49.055] [main/INFO] [REI/]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[21Nov2024 22:09:49.056] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[21Nov2024 22:09:49.056] [main/INFO] [REI/]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[21Nov2024 22:09:49.067] [main/INFO] [REI/]: [REI] REIPlugin finished post-reload for START in 2.439 ms, totaling 48.38 ms.
+[21Nov2024 22:09:49.070] [main/INFO] [REI/]: [REI] REIServerPlugin finished post-reload for START in 1.018 ms, totaling 8.366 ms.
+[21Nov2024 22:09:49.076] [main/INFO] [REI/]: [REI] ----------------------------------------
+[21Nov2024 22:09:49.076] [main/INFO] [REI/]: [REI] REIPlugin starting main-reload for END.
+[21Nov2024 22:09:49.077] [main/INFO] [REI/]: [REI] Plugins (3):
+[21Nov2024 22:09:49.077] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[21Nov2024 22:09:49.077] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[21Nov2024 22:09:49.078] [main/INFO] [REI/]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[21Nov2024 22:09:49.078] [main/INFO] [REI/]: [REI] ----------------------------------------
+[21Nov2024 22:09:49.103] [main/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[21Nov2024 22:09:49.103] [main/INFO] [REI/]: [REI] REIServerPlugin starting main-reload for END.
+[21Nov2024 22:09:49.104] [main/INFO] [REI/]: [REI] Plugins (3):
+[21Nov2024 22:09:49.104] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[21Nov2024 22:09:49.105] [main/INFO] [REI/]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[21Nov2024 22:09:49.105] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[21Nov2024 22:09:49.105] [main/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[21Nov2024 22:09:49.117] [main/INFO] [REI/]: [REI] REIPlugin finished post-reload for END in 1.430 ms, totaling 30.17 ms.
+[21Nov2024 22:09:49.120] [main/INFO] [REI/]: [REI] REIServerPlugin finished post-reload for END in 786.1 μs, totaling 12.71 ms.
+[21Nov2024 22:09:49.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.19.2-1.4.5 Target: null
+[21Nov2024 22:09:49.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Nov2024 22:09:49.128] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: mvs:has_structure/cherry_biomes
+[21Nov2024 22:09:49.612] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.4.5 Target: null
+[21Nov2024 22:09:50.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[21Nov2024 22:09:50.099] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Nov2024 22:09:50.099] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Nov2024 22:09:50.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Nov2024 22:09:50.271] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Nov2024 22:09:50.368] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Nov2024 22:09:50.484] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Nov2024 22:09:50.485] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Nov2024 22:09:50.488] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Nov2024 22:09:50.489] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Nov2024 22:09:50.527] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[21Nov2024 22:09:50.533] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[21Nov2024 22:09:50.534] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[21Nov2024 22:09:50.536] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[21Nov2024 22:09:50.541] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[21Nov2024 22:09:50.565] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Nov2024 22:09:50.569] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Nov2024 22:09:50.572] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Nov2024 22:09:50.623] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[21Nov2024 22:09:50.624] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[21Nov2024 22:09:50.624] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[21Nov2024 22:09:50.624] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[21Nov2024 22:09:50.625] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[21Nov2024 22:09:50.628] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[21Nov2024 22:09:50.631] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[21Nov2024 22:09:50.632] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[21Nov2024 22:09:50.633] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[21Nov2024 22:09:50.633] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[21Nov2024 22:09:50.643] [Server thread/INFO] [Framework/]: Loading server configs...
+[21Nov2024 22:09:50.675] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Nov2024 22:09:52.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Nov2024 22:09:52.865] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Nov2024 22:09:53.453] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[21Nov2024 22:09:58.838] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.839] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.886] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.887] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.905] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.923] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.937] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.939] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.961] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.974] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:58.974] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:59.378] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:09:59.918] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:03.017] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:03.027] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:03.028] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:03.037] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:03.039] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:03.041] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:03.349] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:03.850] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:04.355] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:04.853] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:05.359] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:05.851] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:06.366] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:06.854] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:07.352] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:07.856] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:08.350] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:10.138] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:10.139] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:11.455] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:11.456] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:11.456] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:11.458] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:11.869] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[21Nov2024 22:10:12.393] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[21Nov2024 22:10:12.893] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[21Nov2024 22:10:13.354] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[21Nov2024 22:10:13.868] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[21Nov2024 22:10:14.350] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[21Nov2024 22:10:14.849] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[21Nov2024 22:10:15.370] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[21Nov2024 22:10:15.850] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[21Nov2024 22:10:16.126] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 23277 ms
+[21Nov2024 22:10:16.126] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (25.617s)! For help, type "help"
+[21Nov2024 22:10:16.179] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Nov2024 22:10:16.189] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
+[21Nov2024 22:10:16.266] [Server thread/INFO] [net.stardustlabs.nullscape.Nullscape/]: Thanks for choosing Nullscape!
+[21Nov2024 22:10:16.274] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[21Nov2024 22:10:16.314] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[21Nov2024 22:10:23.863] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6d92ddee
+[21Nov2024 22:10:24.058] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rufi512[/127.0.0.1:46760] logged in with entity id 160 at (-48.5, 70.0, 39.5)
+[21Nov2024 22:10:24.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rufi512 joined the game
+[21Nov2024 22:10:24.882] [Server thread/INFO] [Jade/]: Syncing config to Rufi512 (114ffd8d-170b-3cc4-a807-4a3fa6359d2e)
+[21Nov2024 22:10:25.758] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[21Nov2024 22:10:28.504] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Rufi512 (18)
+[21Nov2024 22:10:28.535] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Rufi512
+[21Nov2024 22:10:37.555] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 114ffd8d-170b-3cc4-a807-4a3fa6359d2e
+[21Nov2024 22:10:38.544] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 114ffd8d-170b-3cc4-a807-4a3fa6359d2e
+[21Nov2024 22:10:38.655] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Rufi512 (114ffd8d-170b-3cc4-a807-4a3fa6359d2e) successfully connected to voice chat
+[21Nov2024 22:11:04.107] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rufi512 lost connection: Disconnected
+[21Nov2024 22:11:04.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rufi512 left the game
+[21Nov2024 22:11:04.332] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Rufi512
+[21Nov2024 22:11:30.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Nov2024 22:11:30.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Nov2024 22:11:31.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Nov2024 22:11:31.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
