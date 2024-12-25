@@ -569,6 +569,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-12-22 16:32:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_white_dye": "2024-12-21 14:01:37 +0000"
@@ -943,7 +949,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -1279,7 +1285,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -1322,6 +1328,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2024-12-20 16:21:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-12-22 16:32:55 +0000"
     },
     "done": true
   },
@@ -1717,7 +1729,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -1741,7 +1753,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -1873,7 +1885,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -2185,7 +2197,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -2540,6 +2552,7 @@
       "baked_potato": "2024-12-20 22:27:03 +0000",
       "potato": "2024-12-21 14:58:53 +0000",
       "bread": "2024-12-20 16:12:02 +0000",
+      "rotten_flesh": "2024-12-23 04:33:10 +0000",
       "carrot": "2024-12-21 14:35:26 +0000"
     },
     "done": false
@@ -3014,7 +3027,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -3176,7 +3189,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -3254,7 +3267,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -3890,7 +3903,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -3920,7 +3933,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
     "done": false
   },
@@ -3968,9 +3981,10 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-12-22 03:30:11 +0000"
+      "requirement": "2024-12-23 04:39:58 +0000",
+      "log_spam_fixer": "2024-12-23 04:39:26 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {

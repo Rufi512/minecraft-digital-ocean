@@ -1,24 +1,15 @@
-[22Dec2024 03:19:10.234] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@67ce6c30
-[22Dec2024 03:19:10.242] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: valtron20[/186.92.213.52:52551] logged in with entity id 59981 at (641.5964139369412, 62.9375, -614.3391423198941)
-[22Dec2024 03:19:10.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valtron20 joined the game
-[22Dec2024 03:19:10.257] [Server thread/INFO] [Jade/]: Syncing config to valtron20 (908cac59-b115-3557-8505-9a2e09aafcd9)
-[22Dec2024 03:19:11.524] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of valtron20 (18)
-[22Dec2024 03:19:11.525] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to valtron20
-[22Dec2024 03:19:14.651] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 908cac59-b115-3557-8505-9a2e09aafcd9
-[22Dec2024 03:19:15.651] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 908cac59-b115-3557-8505-9a2e09aafcd9
-[22Dec2024 03:19:15.652] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player valtron20 (908cac59-b115-3557-8505-9a2e09aafcd9) successfully connected to voice chat
-[22Dec2024 03:22:55.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valtron20 has made the advancement [Ol' Betsy]
-[22Dec2024 03:30:40.089] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: valtron20 lost connection: Disconnected
-[22Dec2024 03:30:40.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valtron20 left the game
-[22Dec2024 03:30:40.090] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client valtron20
-[22Dec2024 12:30:45.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[22Dec2024 12:30:45.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[22Dec2024 12:30:45.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[22Dec2024 12:30:45.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[22Dec2024 12:30:47.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22Dec2024 12:30:48.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22Dec2024 12:30:48.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22Dec2024 12:30:48.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22Dec2024 12:30:48.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22Dec2024 12:30:48.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22Dec2024 12:30:48.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Dec2024 06:29:34.355] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [bagus_lib:channel,endermanoverhaul:main,securitycraft:securitycraft,w2w2:main,enchantwithmob:net,forge:tier_sorting,playerrevive:main,creativecore:main,enchantinginfuser:play,geckolib3:main,elevatorid:main_channel,waystones:network] rejected vanilla connections
+[25Dec2024 06:29:34.357] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[25Dec2024 12:54:49.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25Dec2024 12:54:49.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: exit<--[HERE]
+[25Dec2024 12:54:52.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Dec2024 12:54:52.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Dec2024 12:54:52.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Dec2024 12:54:52.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Dec2024 12:54:54.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Dec2024 12:54:54.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Dec2024 12:54:54.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Dec2024 12:54:54.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Dec2024 12:54:54.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Dec2024 12:54:54.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Dec2024 12:54:54.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
